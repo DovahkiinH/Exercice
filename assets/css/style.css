@@ -1,5 +1,29 @@
-img {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
+footer{
+
+    background-color :black
+    
+
+}
+
+.menu {
+
+    color :white
+}
+
+.logo {
+   width: 10%;
+   height: 10%;
+  }
+
+  .promo {
+
+    width: 100%;
+
+  }
+
+  .IT {
+
+    width: 25%;
+    height: 25%;
+
   }
