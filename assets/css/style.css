@@ -8,7 +8,9 @@ footer{
 .menu {
 
     color :white;
-    background-color :black
+    background-color :black;
+    padding: 5px;
+
     
 
 }
@@ -16,15 +18,15 @@ footer{
 a:link {
   color: #ffffff;
 }
-/* lien visité */
+
 a:visited {
   color: #ffffff;
 }
-/* souris sur le lien */
+
 a:hover {
   color: #ffffff;
 }
-/* lien sélécté */
+
 a:active {
   color: #ffffff;
 }
