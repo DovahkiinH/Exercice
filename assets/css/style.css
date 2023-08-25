@@ -1,17 +1,8 @@
-footer{
-
-    background-color :black
-    
-
-}
-
 .menu {
 
     color :white;
     background-color :black;
     padding: 5px;
-
-    
 
 }
 
@@ -32,8 +23,9 @@ a:active {
 }
 
 .logo {
-   width: 10%;
-   height: 10%;
+  display: flex;
+   width: 25%;
+   
   }
 
   .promo {
@@ -46,5 +38,27 @@ a:active {
 
     width: 25%;
     height: 25%;
+    ;
 
   }
+
+  .jardin{
+    display: flex;
+    width: 65%;
+    justify-content: space-around;
+  }
+
+  table {
+    border-width:1px; 
+    border-style:solid; 
+    border-color:black;
+    width:50%;
+    text-align: center;
+    }
+   td { 
+    border-width:1px;
+    border-style:solid; 
+    border-color:rgb(0, 0, 0);
+    width:50%;
+    text-align: center;
+    }
