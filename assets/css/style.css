@@ -1,8 +1,36 @@
+
+.jarditou{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+   width: 25%;
+   
+  }
+
+  .jardin {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 180%;
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+  }
+
 .menu {
 
-    color :white;
-    background-color :black;
-    padding: 5px;
+  color :white;
+  background-color :black;
+  padding: 5px;
+
+}
+
+.menur {
+
+  display: none;
 
 }
 
@@ -22,43 +50,74 @@ a:active {
   color: #ffffff;
 }
 
-.logo {
-  display: flex;
-   width: 25%;
-   
+.promo {
+
+  width: 100%;
+
+}
+
+.IT {
+
+  width: 25%;
+  height: 25%;
+
+}
+
+table {
+  border-width:1px; 
+  border-style:solid; 
+  border-color:black;
+  width:50%;
+  text-align: center;
   }
 
-  .promo {
-
-    width: 100%;
-
+  td { 
+  border-width:1px;
+  border-style:solid; 
+  border-color:rgb(0, 0, 0);
+  width:50%;
+  text-align: center;
   }
 
-  .IT {
+  @media all and (max-width: 768px)
 
-    width: 25%;
-    height: 25%;
-    ;
+  {
+    .menu {
 
-  }
+      display: none;
 
-  .jardin{
-    display: flex;
-    width: 65%;
-    justify-content: space-around;
-  }
-
-  table {
-    border-width:1px; 
-    border-style:solid; 
-    border-color:black;
-    width:50%;
-    text-align: center;
     }
-   td { 
-    border-width:1px;
-    border-style:solid; 
-    border-color:rgb(0, 0, 0);
-    width:50%;
-    text-align: center;
+
+    .menur {
+
+      display: flex;
+      color :white;
+      background-color :black;
+      padding: 5px;
+    
     }
+
+    .IT {
+
+      width: 70%;
+      height: 70%;
+    
+    }
+    
+    table {
+      border-width:1px; 
+      border-style:solid; 
+      border-color:black;
+      width:70%;
+      text-align: center;
+      }
+    
+      td { 
+      border-width:1px;
+      border-style:solid; 
+      border-color:rgb(0, 0, 0);
+      width:70%;
+      text-align: center;
+      }
+
+  }
