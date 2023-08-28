@@ -56,6 +56,15 @@ a:active {
 
 }
 
+.sidebar {
+
+  float: right;
+  height: 400px;
+  width: 33%;
+  background-color: lightgray;
+
+}
+
 .IT {
 
   width: 25%;
@@ -95,6 +104,12 @@ table {
       background-color :black;
       padding: 5px;
     
+    }
+
+    .sidebar {
+
+      display: none;
+      
     }
 
     .IT {
