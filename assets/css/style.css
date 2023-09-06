@@ -22,10 +22,15 @@
 
 .menu {
 
+  display: flex;
   color :white;
   background-color :black;
   padding: 5px;
 
+}
+
+ul {
+  list-style: none;
 }
 
 a:link {
@@ -88,8 +93,7 @@ table {
   {
     .menu {
 
-      flex-direction: column;
-      
+      display: flex;
 
     }
 
