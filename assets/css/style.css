@@ -31,6 +31,11 @@
 
 ul {
   list-style: none;
+  display: flex;
+}
+
+li a{
+  padding: 5px;
 }
 
 a:link {
@@ -94,6 +99,12 @@ table {
     .menu {
 
       display: flex;
+
+    }
+
+    ul {
+
+      flex-direction: column;
 
     }
 
