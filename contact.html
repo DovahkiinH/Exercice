@@ -58,11 +58,11 @@
     
             <legend>Vos coordonnées</legend>
     
-            <label for="nom">Votre nom*:</label><input type="text" name="nom" id="nom">
+            <label for="nom">Votre nom*:</label><input type="text" name="nom" id="nom" required="required">
             
             <br>
     
-            <label for="prénom">Votre prénom*:</label><input type="text" name="prénom" id="prénom">
+            <label for="prénom">Votre prénom*:</label><input type="text" name="prénom" id="prénom" required="required">
             
             <br>
     
@@ -78,11 +78,11 @@
     
             <br>
     
-            <label for="date">Date de naissance*:</label><input type="date" name="date" id="date">
+            <label for="date">Date de naissance*:</label><input type="date" name="date" id="date" required="required">
     
             <br>
     
-            <label for="CodePostal">Code postal*:</label><input type="text" name="CodePostal" id="CodePostal">
+            <label for="CodePostal">Code postal*:</label><input type="text" name="CodePostal" id="CodePostal" required="required">
     
             <br>
     
@@ -94,7 +94,7 @@
     
             <br>
     
-            <label for="email">Email*:</label><input type="email" name="email" id="email" placeholder="dave.loper@afpa.fr">
+            <label for="email">Email*:</label><input type="email" name="email" id="email" placeholder="dave.loper@afpa.fr" required="required">
     
            </fieldset>
     
@@ -106,7 +106,7 @@
     
             <label for="sujet">Sujet*</label>
     
-            <select id="sujet"> 
+            <select id="sujet" required="required"> 
         
                 <option value="Veuillez séléctionner un sujet" disabled selected>Veuillez séléctionner un sujet</option>
         
@@ -128,7 +128,7 @@
     
            </fieldset>
     
-           <input type="checkbox" name="valider" value="valider"> <label for="uname"> * J'accepte le traitement informatique de ce formulaire </label>
+           <input type="checkbox" name="valider" value="valider" required="required"> <label for="uname"> * J'accepte le traitement informatique de ce formulaire </label>
     
            <br>
     
@@ -157,6 +157,8 @@
         </nav>
         
     </footer>
+
+<script src="assets/JS/javascript.js"></script>
 
 </body>
 
