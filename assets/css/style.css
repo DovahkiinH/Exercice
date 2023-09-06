@@ -28,12 +28,6 @@
 
 }
 
-.menur {
-
-  display: none;
-
-}
-
 a:link {
   color: #ffffff;
 }
@@ -94,17 +88,9 @@ table {
   {
     .menu {
 
-      display: none;
+      flex-direction: column;
+      
 
-    }
-
-    .menur {
-
-      display: flex;
-      color :white;
-      background-color :black;
-      padding: 5px;
-    
     }
 
     .sidebar {
